@@ -8,6 +8,8 @@
     --article-bg-color: #FFFFFF;
     --primary-text-color: #0000FF;
     --secondary-text-color: #222222;
+    --facts-list-item-color: #FFE400;
+    --content-gap: 6.25rem;
 }
 
 body {
@@ -16,13 +18,7 @@ body {
     color: var(--primary-text-color);
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    max-width: 27.5rem;
-    margin: auto;
-    padding: 3rem 0 0 0;
-}
+/* Text */
 
 .subtitle {
     font-weight: 400;
@@ -36,8 +32,83 @@ header {
     line-height: 2.75rem;
 }
 
+.title-2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.8125rem;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    background-color: var(--article-bg-color);
+    padding: 1.5rem 1rem 1rem 2rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 3rem 2rem 0;
+}
+
 .header-illustration {
+    width: 100%;
     max-width: 11.375rem;
-    height: 11.0625rem;
+    max-height: 11.0625rem;
     align-self: flex-end;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--content-gap);
+    margin-bottom: var(--content-gap);
+    gap: var(--content-gap);
+}
+
+.intro-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto 0;
+    padding: 3rem 2rem 0;
+}
+
+.intro-card-text {
+    margin-top: -3.3rem;
+}
+
+.intro-card-text > .title-2 {
+    background-color: var(--article-bg-color);
+    width: fit-content;
+    margin: 0 0 0 auto;
+    padding: 0.5rem 0.8rem 0.5rem 1rem;
+}
+
+.voorhoede-facts {
+    align-self: center;
+}
+
+.voorhoede-facts > .title-2 {
+    text-align: center;
+    width: 15rem;
+    margin-bottom: 1rem;
+
+}
+
+.facts-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 1rem;
+    align-items: center;
+    padding: 0;
+}
+
+.facts-list > li {
+    background-color: var(--facts-list-item-color);
+    border-radius: 50px;
+    padding: 0.25rem 0.5rem;
 }
