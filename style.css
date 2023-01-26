@@ -38,6 +38,12 @@ body {
     line-height: 1.8125rem;
 }
 
+.title-3 {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}
+
 .main-text {
     font-weight: 400;
     font-size: 1.125rem;
@@ -45,6 +51,15 @@ body {
     background-color: var(--article-bg-color);
     padding: 1.5rem 1rem 1rem 2rem;
 }
+
+.jasper-text-quote {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2.1875rem;
+    color: var(--secondary-text-color);
+}
+
+/* Header */
 
 header {
     display: flex;
@@ -68,6 +83,8 @@ main {
     gap: var(--content-gap);
 }
 
+/* Intro card */
+
 .intro-card {
     display: flex;
     flex-direction: column;
@@ -84,17 +101,14 @@ main {
     background-color: var(--article-bg-color);
     width: fit-content;
     margin: 0 0 0 auto;
-    padding: 0.5rem 0.8rem 0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 2rem;
 }
 
-.voorhoede-facts {
-    align-self: center;
-}
+/* Facts list */
 
 .voorhoede-facts > .title-2 {
     text-align: center;
-    width: 15rem;
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem;
 
 }
 
@@ -111,4 +125,69 @@ main {
     background-color: var(--facts-list-item-color);
     border-radius: 50px;
     padding: 0.25rem 0.5rem;
+}
+
+/* Second Card*/
+
+.second-card > .intro-card-text > .title-2 {
+    margin: 0;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    color: var(--article-bg-color);
+    background-color: var(--primary-text-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: fit-content;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+/* Interview */
+
+.interview-jasper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 2rem 0;
+}
+
+.jasper-image {
+    width: 100%;
+    max-width: 13.4375rem;
+    max-height: 13.4375rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.interview-jasper-text {
+    margin: 1rem 0 0 0;
+}
+
+/* Team grid */
+
+.team-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+}
+
+.team-grid-image {
+    width: 50%;
+    object-fit: cover;
+
 }
