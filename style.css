@@ -18,7 +18,7 @@ body {
     color: var(--primary-text-color);
 }
 
-/* Text */
+/* Font styling */
 
 .subtitle {
     font-weight: 400;
@@ -56,6 +56,13 @@ body {
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 2.1875rem;
+    color: var(--secondary-text-color);
+}
+
+.caption {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5625rem;
     color: var(--secondary-text-color);
 }
 
@@ -170,6 +177,63 @@ main {
 
 .interview-jasper-text {
     margin: 1rem 0 0 0;
+}
+
+/* Timeline */
+
+.timeline {
+    width: 100%;
+    padding: 3rem 2rem 0;
+
+}
+
+.timeline-all-items::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: var(--primary-text-color);
+    left: 0.715rem;
+}
+
+.timeline-all-items {
+    position: relative;
+}
+
+
+.timeline-item {
+    margin: 0 0 2rem 0;
+    position: relative;
+}
+
+.timeline-dot {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: var(--primary-text-color);
+    border-radius: 100%;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-content {
+    padding: 0.5rem 0;
+}
+
+.timeline-content > .caption {
+    padding: 0.5rem 0;
+}
+
+.timeline-image {
+    width: 100%;
+}
+
+.timeline-item:nth-child(n) {
+    padding-left: 2.5rem;
 }
 
 /* Team grid */
