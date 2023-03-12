@@ -1,15 +1,16 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# De Voorhoede Lustrum
+Dit is een site om het 10-jarige bestaan van De 
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Met deze site krijg je een terugblik van de afgelopen 10 jaar bij De Voorhoede en krijg je ook een vooruitblik naar de toekomst.
+
+![image](https://user-images.githubusercontent.com/112857131/224553064-58a7b34f-3f2f-4054-980e-06ea47786677.png)
+
+Bekijk de site zelf [deze link!](https://isandroc.github.io/the-startup-responsive-interactieve-website/)
+
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+Voor deze site heb ik HTML en CSS gebruikt.
 
 
 ## Licentie
