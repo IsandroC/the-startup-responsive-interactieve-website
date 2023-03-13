@@ -376,7 +376,7 @@ main {
     
     .caption {
         font-weight: 400;
-        font-size: 1l.125rem;
+        font-size: 1.125rem;
         line-height: 1.8125rem;
         color: var(--secondary-text-color);
     }
